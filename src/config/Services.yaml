@@ -1,0 +1,19 @@
+Services:
+  App\App\Model\UtilisateurModel:
+    class: App\App\Model\UtilisateurModel
+  App\Core\Validator\ValidatorInterface:
+    class: App\Core\Validator\ConcreteValidator
+  App\Core\SessionInterface:
+    class: App\Core\Session
+  App\App\Model\CoursModel:
+    class: App\App\Model\CoursModel
+  App\App\Model\SessionModel:
+    class: App\App\Model\SessionModel
+  App\App\Model\ProfesseurModel:
+    class: App\App\Model\ProfesseurModel
+  App\App\Model\DemandeAnnulationModel:
+    class: App\App\Model\DemandeAnnulationModel
+  App\App\Model\EtudiantModel:
+    class: App\App\Model\EtudiantModel
+  App\App\Model\AbsenceModel:
+    class: App\App\Model\AbsenceModel
